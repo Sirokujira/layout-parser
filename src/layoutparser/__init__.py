@@ -63,7 +63,10 @@ _import_structure = {
 _import_structure["models"] = ["AutoLayoutModel"]
 
 if is_detectron2_available():
-    _import_structure["models.detectron2"] = ["Detectron2LayoutModel"]
+    _import_structure["models.detectron2"] = [
+        "Detectron2LayoutModel",
+        "Detectron2CustomLayoutModel",
+    ]
 
 if is_paddle_available():
     _import_structure["models.paddledetection"] = ["PaddleDetectionLayoutModel"]

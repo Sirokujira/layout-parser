@@ -13,6 +13,7 @@
 # limitations under the License.
 
 from .detectron2.layoutmodel import Detectron2LayoutModel
+from .detectron2.layoutmodel import Detectron2CustomLayoutModel
 from .paddledetection.layoutmodel import PaddleDetectionLayoutModel
 from .effdet.layoutmodel import EfficientDetLayoutModel
 from .auto_layoutmodel import AutoLayoutModel
